@@ -327,7 +327,7 @@ p {
 
     .social-icons {
         grid-area: icons;
-        justify-self: flex-end
+        justify-self: flex-end;
     }
 
     .main-footer__copyrights {
