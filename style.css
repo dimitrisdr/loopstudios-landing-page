@@ -1,0 +1,51 @@
+/* css reset */
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+img, svg {
+    max-width: 100%;
+    display: block;
+}
+
+button, a {
+    color: inherit;
+    background-color: inherit;
+}
+
+button {
+    background-color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* utility classes */
+
+.fw-300 {
+    font-weight: 300;
+}
+
+
+/* global custom properties */
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Dark-Gray: hsl(0, 0%, 55%);
+    --Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
+
+/* front end mentor style */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
